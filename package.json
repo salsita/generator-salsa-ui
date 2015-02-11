@@ -2,6 +2,10 @@
   "name": "generator-salsa-ui",
   "version": "0.1.0",
   "description": "Salsita's generator for UI prototyping",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/salsita/generator-salsa-ui.git"
+  },
   "keywords": [
     "yeoman-generator"
   ],

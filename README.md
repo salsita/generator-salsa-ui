@@ -16,7 +16,7 @@ Make a new directory, and `cd` into it:
 
 Run `yo salsa-ui app-name`, passing app name:
   ```
-  yo salsa my-new-app-name
+  yo salsa-ui my-new-app-name
   ```
 
 ## Usage
