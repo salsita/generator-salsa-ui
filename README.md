@@ -17,6 +17,7 @@ Make a new directory, and `cd` into it:
 Run `yo salsa-ui app-name`, passing app name:
   ```
   yo salsa my-new-app-name
+  ```
 
 ## Usage
 
@@ -25,6 +26,7 @@ In the project template run following commands
   npm install
   bower install
   gulp
+  ```
 
 Webserver starts on `http://localhost:3000` and everything works with livereload out of the box (just have the plugin installed in your browser).
 
