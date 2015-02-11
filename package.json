@@ -1,0 +1,11 @@
+{
+  "name": "generator-salsa-ui",
+  "version": "0.1.0",
+  "description": "Salsita's generator for UI prototyping",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "0.18.8"
+  }
+}
