@@ -25,7 +25,7 @@ In the project template run following commands
   npm install
   bower install
   gulp
-  ```
+
 Webserver starts on `http://localhost:3000` and everything works with livereload out of the box (just have the plugin installed in your browser).
 
 The template is easily deployable on heroku.
