@@ -14,13 +14,13 @@ gulp.task('less', function() {
     .pipe(minifyCss({keepBreaks: false}))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('public/dist'))
+    .pipe(livereload());
 });
 
 gulp.task('watch', function() {
   livereload.listen();
 
   gulp.watch('public/src/less/**/*.less', ['less']);
-  gulp.watch('public/dist/style.css').on('change', livereload.changed);
   gulp.watch('public/*.html').on('change', livereload.changed);
 });
 
